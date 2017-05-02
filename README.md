@@ -15,5 +15,6 @@ $ json-server --watch events.json --port 3004
 Open another command window in root directory, run:
 
 ```
+$ npm install
 $ npm start
 ```

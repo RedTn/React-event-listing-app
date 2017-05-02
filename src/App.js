@@ -116,12 +116,12 @@ class App extends Component {
     const { loading } = this.state
     return(
       <div className="app">
+        <p>Upcoming Events Widget</p>
         {
             (loading) ?
             <span>Loading...</span> :
-            <span></span>
+            <EventList event={this.state.allEvents} />
         }
-        <EventList event={this.state.allEvents} />
       </div>
     )
   }
